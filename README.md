@@ -12,7 +12,7 @@
 
              - create route http://localhost:3333/projects
             
-            +json: ```
+            ```
             {
                 "title": "node js for example",
                 "owner: "andre martins",
@@ -23,7 +23,7 @@
             http://localhost:3333/projects/:id
 
             
-            +json: ```
+             ```
             {
                 "title": "node js for example",
                 "owner: "andre martins",
@@ -33,7 +33,7 @@
 
             - udpate : /projects/:id            
 
-            +json: ```
+             ```
             {
                 "title": "node js for example",
                 "owner: "andre martins",
