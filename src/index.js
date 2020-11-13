@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, StatusBar } from 'react-native';
+import { View, ScrollView, Text, StyleSheet, StatusBar } from 'react-native';
 
 import api from './services/api';
 
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
     project: {
         color: '#FFF',
-        fontSize: 22,
+        fontSize: 122,
         fontWeight: 'bold'
     },
 });
