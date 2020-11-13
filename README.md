@@ -6,7 +6,8 @@
 
     + Instructions to run backend:
         - yarn dev on root folder
-        - open insomnia or postman use route http://localhost:3333/projects to post delete, update and create projects
+        - open insomnia or postman use route http://localhost:3333/projects to post delete,
+        update and create projects.
         
         ## Routes
 
