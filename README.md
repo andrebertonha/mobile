@@ -8,41 +8,34 @@
         - yarn dev on root folder
         - open insomnia or postman use route http://localhost:3333/projects to post delete, update and create projects
         
-        - create route
+        ## Routes
 
-             - create route http://localhost:3333/projects
+             - create route http://localhost:3333/projects            
+            {
+                "title": "node js for example",
+                "owner: "andre martins",
+            }
             
-            ```
+
+            - update route: http://localhost:3333/projects/:id            
             {
                 "title": "node js for example",
                 "owner: "andre martins",
             }
-            ```
-
-            - update route:
-            http://localhost:3333/projects/:id
 
             
-             ```
+            - udpate : /projects/:id
+             
             {
                 "title": "node js for example",
                 "owner: "andre martins",
             }
-            ```
-
-
-            - udpate : /projects/:id            
-
-             ```
-            {
-                "title": "node js for example",
-                "owner: "andre martins",
-            }
-            ```
 
 
             - delete : /projects/:id
-            - ```response must be 204 OK```
+
+
+            - response: 204 OK
 
     + Mobile:
         - yarn ( root folder ) to install dependencies
