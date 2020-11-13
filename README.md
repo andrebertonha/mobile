@@ -1,9 +1,9 @@
 #goStack react native module
 
-    + React Native from gostack bootcamp 
-    
+    + About project: react native Add projects using backend api: 
+    + (you can clone from the following repository): https://github.com/andrebertonha/backend
+    + React Native from gostack bootcamp     
     + Instruções
-
     + Instructions to run backend:
         - yarn dev on root folder
         - open insomnia or postman use route http://localhost:3333/projects to post delete,
