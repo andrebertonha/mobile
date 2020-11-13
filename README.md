@@ -1,30 +1,50 @@
-#goStack
+#goStack react native module
 
     + React Native from gostack bootcamp 
     
     + Instruções
 
-    + Backend:
-        - root folder do yarn dev
-        - access insomnia or postman and refers to the route http://localhost:3333/projects for routes of delete post create and update
+    + Instructions to run backend:
+        - yarn dev on root folder
+        - open insomnia or postman use route http://localhost:3333/projects to post delete, update and create projects
         
-        - how to insert > create route: 
+        - create route
 
-             - route http://localhost:3333/projects
+             - create route http://localhost:3333/projects
             
-            json: ```
+            +json: ```
             {
                 "title": "node js for example",
                 "owner: "andre martins",
             }
             ```
 
-            - how to insert > get or list route: 
-            http://localhost:3333/projects
+            - update route:
+            http://localhost:3333/projects/:id
 
-            - udpate : /projects/:id
+            
+            +json: ```
+            {
+                "title": "node js for example",
+                "owner: "andre martins",
+            }
+            ```
+
+
+            - udpate : /projects/:id            
+
+            +json: ```
+            {
+                "title": "node js for example",
+                "owner: "andre martins",
+            }
+            ```
+
+
             - delete : /projects/:id
+            - ```response must be 204 OK```
 
     + Mobile:
-        - yarn ( root folder )
-        - react-native run-android ( root folder )
+        - yarn ( root folder ) to install dependencies
+        - open your emulator
+        - react-native run-android inside root folder (mobile)
